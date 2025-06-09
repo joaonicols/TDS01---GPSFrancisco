@@ -34,6 +34,13 @@ namespace TDS01___GPSFrancisco
                 pgbPorcentagem.Value = pgbPorcentagem.Value + 10;
                 lblPorcentagem.Text = pgbPorcentagem.Value.ToString() + "%";
             }
+            else 
+            {
+                tmrSplash.Enabled = false;
+                frmLogin abrir = new frmLogin();
+                abrir.Show();
+                this.Hide();
+            }
         }
 
         private void frmSplash_Load(object sender, EventArgs e)
