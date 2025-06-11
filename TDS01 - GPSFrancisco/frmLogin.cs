@@ -17,9 +17,7 @@ namespace TDS01___GPSFrancisco
         {
             InitializeComponent();
             ConfigPlacehouder configPlacehouder = new ConfigPlacehouder();
-            configPlacehouder.ConfigurarPlaceholder(txtLoginUsuario, "Usuário:");
-            configPlacehouder.ConfigurarPlaceholder(txtLoginSenha, "Senha:");
-
+            configPlacehouder.ConfigurarPlaceholder(txtLoginUsuario, txtLoginSenha, "Usuário:", "Senha:");
         }
 
         private void frmLogin_Load(object sender, EventArgs e)

@@ -40,7 +40,7 @@
             // 
             this.pcbLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pcbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pcbLogo.Image")));
-            this.pcbLogo.Location = new System.Drawing.Point(242, 12);
+            this.pcbLogo.Location = new System.Drawing.Point(249, 12);
             this.pcbLogo.Name = "pcbLogo";
             this.pcbLogo.Size = new System.Drawing.Size(237, 191);
             this.pcbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -51,7 +51,7 @@
             // 
             this.lblGPSFrancisco.AutoSize = true;
             this.lblGPSFrancisco.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGPSFrancisco.Location = new System.Drawing.Point(247, 220);
+            this.lblGPSFrancisco.Location = new System.Drawing.Point(259, 220);
             this.lblGPSFrancisco.Name = "lblGPSFrancisco";
             this.lblGPSFrancisco.Size = new System.Drawing.Size(217, 47);
             this.lblGPSFrancisco.TabIndex = 2;
@@ -60,18 +60,18 @@
             // txtLoginUsuario
             // 
             this.txtLoginUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLoginUsuario.Location = new System.Drawing.Point(255, 288);
+            this.txtLoginUsuario.Location = new System.Drawing.Point(256, 288);
             this.txtLoginUsuario.Name = "txtLoginUsuario";
-            this.txtLoginUsuario.Size = new System.Drawing.Size(191, 35);
+            this.txtLoginUsuario.Size = new System.Drawing.Size(223, 35);
             this.txtLoginUsuario.TabIndex = 3;
             this.txtLoginUsuario.TabStop = false;
             // 
             // txtLoginSenha
             // 
-            this.txtLoginSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLoginSenha.Location = new System.Drawing.Point(255, 320);
+            this.txtLoginSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.txtLoginSenha.Location = new System.Drawing.Point(256, 329);
             this.txtLoginSenha.Name = "txtLoginSenha";
-            this.txtLoginSenha.Size = new System.Drawing.Size(191, 35);
+            this.txtLoginSenha.Size = new System.Drawing.Size(223, 35);
             this.txtLoginSenha.TabIndex = 4;
             this.txtLoginSenha.TabStop = false;
             // 
