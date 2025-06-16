@@ -63,8 +63,7 @@
             this.txtLoginUsuario.Location = new System.Drawing.Point(256, 288);
             this.txtLoginUsuario.Name = "txtLoginUsuario";
             this.txtLoginUsuario.Size = new System.Drawing.Size(223, 35);
-            this.txtLoginUsuario.TabIndex = 3;
-            this.txtLoginUsuario.TabStop = false;
+            this.txtLoginUsuario.TabIndex = 1;
             // 
             // txtLoginSenha
             // 
@@ -72,8 +71,7 @@
             this.txtLoginSenha.Location = new System.Drawing.Point(256, 329);
             this.txtLoginSenha.Name = "txtLoginSenha";
             this.txtLoginSenha.Size = new System.Drawing.Size(223, 35);
-            this.txtLoginSenha.TabIndex = 4;
-            this.txtLoginSenha.TabStop = false;
+            this.txtLoginSenha.TabIndex = 2;
             // 
             // frmLogin
             // 
