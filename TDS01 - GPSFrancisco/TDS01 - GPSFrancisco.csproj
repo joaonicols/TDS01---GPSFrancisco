@@ -98,6 +98,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classe\Conexao.cs" />
     <Compile Include="Classe\ConfigPlacehouder.cs">
       <SubType>Component</SubType>
     </Compile>

@@ -33,6 +33,7 @@
             this.lblGPSFrancisco = new System.Windows.Forms.Label();
             this.txtLoginUsuario = new System.Windows.Forms.TextBox();
             this.txtLoginSenha = new System.Windows.Forms.TextBox();
+            this.btnEntrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcbLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,12 +74,27 @@
             this.txtLoginSenha.Size = new System.Drawing.Size(223, 35);
             this.txtLoginSenha.TabIndex = 2;
             // 
+            // btnEntrar
+            // 
+            this.btnEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(214)))), ((int)(((byte)(229)))));
+            this.btnEntrar.FlatAppearance.BorderSize = 0;
+            this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrar.Location = new System.Drawing.Point(263, 382);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.Size = new System.Drawing.Size(209, 41);
+            this.btnEntrar.TabIndex = 3;
+            this.btnEntrar.Text = "Entrar";
+            this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Paint += new System.Windows.Forms.PaintEventHandler(this.btnEntrar_Paint);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(220)))), ((int)(((byte)(142)))));
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.txtLoginSenha);
             this.Controls.Add(this.txtLoginUsuario);
             this.Controls.Add(this.lblGPSFrancisco);
@@ -87,7 +103,6 @@
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GFSFrancisco - Login";
-            this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -100,5 +115,6 @@
         private System.Windows.Forms.Label lblGPSFrancisco;
         private System.Windows.Forms.TextBox txtLoginUsuario;
         private System.Windows.Forms.TextBox txtLoginSenha;
+        private System.Windows.Forms.Button btnEntrar;
     }
 }
